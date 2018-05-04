@@ -14,7 +14,7 @@ sudo do-release-upgrade
 sudo apt autoremove -y
 
 #Invio email 
-echo "Tutto ok" | mail -s "Aggiornamento UbuntuDev Eseguito Correttamente" riccardo@pirani.it
+echo "Upgrade Debian" | mail -s "Upgrade" riccardo@pirani.it
 
 #riavvio tutto
 sudo reboot
