@@ -13,8 +13,3 @@ sudo do-release-upgrade
 #rimozione pacchetti inutilizzati
 sudo apt autoremove -y
 
-#Invio email 
-echo "Upgrade Debian" | mail -s "Upgrade" riccardo@pirani.it
-
-#riavvio tutto
-sudo reboot
