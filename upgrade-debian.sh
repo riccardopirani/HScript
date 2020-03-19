@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #script perform debian system by riccardopirani.altervista.org
-
+clear
+clear
 #install favourite package
 sudo apt-get install  -f fish gcc
 #update docker images
